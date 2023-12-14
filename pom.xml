@@ -43,7 +43,7 @@
         </dependency>
 
     </dependencies>
-
+            <!-- resources -->
     <build>
         <resources>
             <resource>
@@ -71,7 +71,7 @@
                     <mainClass>com.javarush.games.racer.RacerGame</mainClass>
                 </configuration>
             </plugin>
-
+                <!-- install plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-install-plugin</artifactId>
@@ -92,7 +92,7 @@
                     </execution>
                 </executions>
             </plugin>
-
+                <!-- dependency plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -113,7 +113,7 @@
                     </execution>
                 </executions>
             </plugin>
-
+                <!-- jar plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -132,7 +132,7 @@
                     </archive>
                 </configuration>
             </plugin>
-
+                <!-- surefire plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
